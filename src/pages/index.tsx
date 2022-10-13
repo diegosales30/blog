@@ -1,11 +1,12 @@
 import type { NextPage } from "next";
+import LandingPage from "./../components/LandingPage/index";
 
-const Home: NextPage = () => {
+const Landing: NextPage = () => {
   return (
-    <div>
-      <h1>Hello world</h1>
-    </div>
+    <>
+      <LandingPage />
+    </>
   );
 };
 
-export default Home;
+export default Landing;

@@ -1,18 +1,14 @@
 import Link from "next/link";
 import styles from "./styles.module.scss";
 
-const RegisterPage = () => {
+const LoginPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.box}>
         <h1 className={styles.title}>FaceBlog</h1>
         <section className={styles.containerForm}>
-          <h1>SignUp</h1>
+          <h1>SignIn</h1>
           <form>
-            <label>
-              Username:
-              <input type="text" placeholder="ex: Jhon" />
-            </label>
             <label>
               Email:
               <input type="text" placeholder="ex: jhonDoe@email.com" />
@@ -21,17 +17,13 @@ const RegisterPage = () => {
               Password:
               <input type="password" placeholder="password" />
             </label>
-            <label>
-              Imagem:
-              <input type="text" placeholder="link da imagem" />
-            </label>
           </form>
           <div className={styles.containerButton}>
-            <button>Cadastrar</button>
+            <button>Entrar</button>
             <p>
-              Já possui conta?{" "}
-              <Link href="/login">
-                <span>Fazer login</span>
+              Não possui conta?{" "}
+              <Link href="/register">
+                <span>Cadastro</span>
               </Link>
             </p>
           </div>
@@ -41,4 +33,4 @@ const RegisterPage = () => {
   );
 };
 
-export default RegisterPage;
+export default LoginPage;

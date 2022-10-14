@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./styles.module.scss";
 
 function LandingPage() {
@@ -8,8 +9,12 @@ function LandingPage() {
           <h1>FaceBlog</h1>
         </div>
         <div className={styles.containerButton}>
-          <button>Entrar</button>
-          <button>Cadastrar</button>
+          <Link href="/login">
+            <button>Entrar</button>
+          </Link>
+          <Link href="/register">
+            <button>Cadastrar</button>
+          </Link>
           <button>Github</button>
         </div>
       </div>

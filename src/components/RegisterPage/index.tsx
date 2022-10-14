@@ -28,7 +28,7 @@ const RegisterPage = () => {
         <div className={styles.containerButton}>
           <button>Cadastrar</button>
           <p>
-            Já possui conta? <span>Fazer login</span>
+            Já possui conta?<span>Fazer login</span>
           </p>
         </div>
       </section>

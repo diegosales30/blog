@@ -1,10 +1,10 @@
 import type { NextPage } from "next";
-import LandingPage from "./../components/LandingPage/index";
+import RegisterPage from "../components/RegisterPage";
 
 const Landing: NextPage = () => {
   return (
     <>
-      <LandingPage />
+      <RegisterPage />
     </>
   );
 };

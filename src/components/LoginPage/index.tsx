@@ -22,7 +22,7 @@ const LoginPage = () => {
             <button>Entrar</button>
             <p>
               Não possui conta?{" "}
-              <Link href="/register">
+              <Link href="/">
                 <span>Cadastro</span>
               </Link>
             </p>

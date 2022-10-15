@@ -7,7 +7,7 @@ const RegisterPage = () => {
       <div className={styles.box}>
         <h1 className={styles.title}>FaceBlog</h1>
         <section className={styles.containerForm}>
-          <h1>SignUp</h1>
+          <h2>SignUp</h2>
           <form>
             <label>
               Username:

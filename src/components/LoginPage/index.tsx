@@ -7,7 +7,7 @@ const LoginPage = () => {
       <div className={styles.box}>
         <h1 className={styles.title}>FaceBlog</h1>
         <section className={styles.containerForm}>
-          <h1>SignIn</h1>
+          <h2>SignIn</h2>
           <form>
             <label>
               Email:

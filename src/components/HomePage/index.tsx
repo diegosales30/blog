@@ -1,10 +1,11 @@
 import Header from "../Header";
+import MainPage from "./../Main/index";
 
 const HomePage = () => {
   return (
     <div>
       <Header />
-      <h1>Home Page</h1>
+      <MainPage />
     </div>
   );
 };

@@ -8,8 +8,8 @@ const Header = () => {
         <h3>Faceblog</h3>
         <div className={styles.containerProfile}>
           <Image
-            width={"40px"}
-            height={"40px"}
+            width={"30px"}
+            height={"30px"}
             src="https://avatars.githubusercontent.com/u/95250284?s=400&u=dc983f165b1127ef8a57ec65d03f60d473420cd7&v=4"
             alt="profile"
           />
